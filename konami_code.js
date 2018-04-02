@@ -12,11 +12,12 @@ function init() {
         alert("Hurray!");
         index = 0;
         }
-    }
-    else {
-    console.log(e.which);
-    index = 0;
-    }
+      } else {
+          console.log(e.which);
+          console.log(e.detail);
+          console.log(e.location);
+          index = 0;
+        }
   });
 }
 
